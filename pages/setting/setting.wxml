@@ -1,0 +1,48 @@
+<!--pages/setting/setting.wxml-->
+<view class="weui-panel__bd">
+  <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+      <image class="weui-media-box__thumb" src="{{icon01}}" />
+    </view>
+    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class="weui-media-box__title">忍者</view>
+      <view class="weui-media-box__desc">只要有树叶飞舞的地方就会有火在燃烧，那火光会照耀着村子，然后新的树叶会再次萌芽。</view>
+    </view>
+  </navigator>
+  <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+      <image class="weui-media-box__thumb" src="{{icon02}}" />
+    </view>
+    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class="weui-media-box__title">忍术</view>
+      <view class="weui-media-box__desc">所有的术基本上分为三种：体术、忍术、幻术、咒印术、封印术、秘术、血继限界等。</view>
+    </view>
+  </navigator>
+  <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+      <image class="weui-media-box__thumb" src="{{icon03}}" />
+    </view>
+    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class="weui-media-box__title">忍具</view>
+      <view class="weui-media-box__desc">基本上分为三种：手里剑、苦无、风魔手里剑、飞燕、武士刀、卷轴等。</view>
+    </view>
+  </navigator>
+  <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+      <image class="weui-media-box__thumb" src="{{icon04}}" />
+    </view>
+    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class="weui-media-box__title">尾兽</view>
+      <view class="weui-media-box__desc">尾兽是具有强大查克拉量的九只妖怪，在故事中因拥有强大力量而对民间造成威胁，故各自被封印在人体内。            </view>
+    </view>
+  </navigator>
+  <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+      <image class="weui-media-box__thumb" src="{{icon05}}" />
+    </view>
+    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+      <view class="weui-media-box__title">地理</view>
+      <view class="weui-media-box__desc">主要分为火之国、风之国、水之国、雷之国和土之国。</view>
+    </view>
+  </navigator>
+</view>

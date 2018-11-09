@@ -1,0 +1,64 @@
+/* pages/roleItem/item.wxss */
+
+.bg-img {
+  height: 100px;
+  filter: blur(18rpx);
+}
+
+image.head_img {
+  position: absolute;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ccc;
+  margin-left: 340rpx;
+  margin-top: -75px;
+}
+
+.roledesc {
+  position: absolute;
+  margin-top: -25px;
+  left: 120px;
+}
+
+image.sex_img {
+  width: 12px;
+  height: 12px;
+}
+
+text.roleName {
+  color: #fff;
+  font-size: 12px;
+  line-height: 21px;
+  margin-left: 15rpx;
+  letter-spacing: 2px;
+}
+
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.weui-article__h4 {
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 0.34em;
+  margin-top: 0.34em;
+  border-left: 2px solid green;
+  padding-left: 4px;
+}
+
+.weui-article__p {
+  margin: 0 0 0.8em;
+  font-size: 24rpx;
+}
+
+.weui-cell__ft {
+  text-align: left;
+  color: #999;
+  font-size: 24rpx;
+  margin-left: 14px;
+}
+.weui-cell_lf{
+  width:48px;
+}

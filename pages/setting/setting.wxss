@@ -1,0 +1,4 @@
+/* pages/setting/setting.wxss */
+.weui-media-box__desc{
+  font-size:24rpx;
+}

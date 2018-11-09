@@ -1,0 +1,40 @@
+<view>
+  <view class='bg-img' style='background-image: url("https://jinuss.github.io/blog/jinus/role/logo.png")'> </view>
+  <image class="head_img" src="{{role.img}}" mode="aspectFit" />
+  <view class='roledesc'>
+    <image class='sex_img' wx:if="{{role.sex==1}}" src='../.././assets/imgs/man.png'></image>
+    <image class='sex_img' wx:else src='../.././assets/imgs/women.png'></image>
+    <text class='roleName'>{{role.village}}•{{role.name}}</text>
+  </view>
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__section">
+        <view class="weui-article__title">{{role.fullName}}</view>
+        <view class="weui-article__section">
+          <view class="weui-article__h4">人物概要</view>
+          <view class="weui-article__section">
+            <view class="weui-article__p" wx:for="{{role.story}}">
+              {{item.p}}
+            </view>
+          </view>
+        </view>
+        <view class="weui-article__section">
+          <view class="weui-article__h4">能力设定</view>
+          <view class="weui-article__p">
+            <view class="weui-cells__title">技能说明</view>
+            <view class="weui-cells weui-cells_after-title">
+              <view class="weui-cell" wx:for="{{role.skills}}">
+                <view class="weui-cell_lf">{{item.type}}</view>
+                <view class="weui-cell__ft">{{item.val}}</view>
+              </view>
+            </view>
+            <view class="weui-cells__title">技能设定</view>
+            <view class="container" style='width:100%;height:500px;'>
+              <ec-canvas id="mychart-dom-graph" canvas-id="mychart-graph" ec="{{ ec }}"></ec-canvas>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

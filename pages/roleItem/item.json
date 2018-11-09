@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "人物志 ▪ 个人主页",
+  "usingComponents": {
+    "ec-canvas": "../../ec-canvas/ec-canvas"
+  }
+}

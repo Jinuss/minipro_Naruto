@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/summary/summary",
+    "pages/setting/setting",
+    "pages/role/role",
+    "pages/roleItem/item"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "火影忍者",
+    "navigationBarTextStyle": "black"
+  }
+}

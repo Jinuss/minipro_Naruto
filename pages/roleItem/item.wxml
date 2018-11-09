@@ -10,10 +10,11 @@
     <view class="weui-article">
       <view class="weui-article__section">
         <view class="weui-article__title">{{role.fullName}}</view>
+        <text class='attributesText'>属性：{{role.attribute}}</text>
         <view class="weui-article__section">
           <view class="weui-article__h4">人物概要</view>
           <view class="weui-article__section">
-            <view class="weui-article__p" wx:for="{{role.story}}">
+            <view class="weui-article__p" wx:for="{{role.story}}" wx:key='id'>
               {{item.p}}
             </view>
           </view>
@@ -23,14 +24,15 @@
           <view class="weui-article__p">
             <view class="weui-cells__title">技能说明</view>
             <view class="weui-cells weui-cells_after-title">
-              <view class="weui-cell" wx:for="{{role.skills}}">
+              <view class="weui-cell" wx:for="{{role.skills}}" wx:key="id">
                 <view class="weui-cell_lf">{{item.type}}</view>
                 <view class="weui-cell__ft">{{item.val}}</view>
               </view>
             </view>
             <view class="weui-cells__title">技能设定</view>
-            <view class="container" style='width:100%;height:500px;'>
-              <ec-canvas id="mychart-dom-graph" canvas-id="mychart-graph" ec="{{ ec }}"></ec-canvas>
+            <view class="container" style='width:100%;height:300px;'>
+              <ec-canvas id="mychart-dom-graph" canvas-id="mychart-graph" style='width:300px;height:300px;margin:auto;' ec="{{ ec }}"></ec-canvas>
+              <text style='color:grey;'>*以上数据来源于《临之书》，如有异议勿喷~</text>
             </view>
           </view>
         </view>

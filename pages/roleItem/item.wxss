@@ -18,7 +18,9 @@ image.head_img {
 .roledesc {
   position: absolute;
   margin-top: -25px;
-  left: 120px;
+  display: block;
+  text-align: center;
+  width: 100%;
 }
 
 image.sex_img {
@@ -59,6 +61,11 @@ ec-canvas {
   font-size: 24rpx;
   margin-left: 14px;
 }
-.weui-cell_lf{
-  width:48px;
+
+.weui-cell_lf {
+  width: 48px;
+}
+
+.attributesText {
+  font-size: 12px;
 }

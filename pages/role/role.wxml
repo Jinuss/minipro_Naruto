@@ -21,7 +21,7 @@
       <view class="weui-panel__hd">检索结果</view>
       <view class="weui-panel__bd">
         <view class="weui-media-box weui-media-box_small-appmsg">
-          <view class="weui-cells weui-cells_in-small-appmsg" wx:for="{{inputSearch}}">
+          <view class="weui-cells weui-cells_in-small-appmsg" wx:for="{{inputSearch}}" wx:key='id'>
             <navigator url="../roleItem/item?id={{item.id}}" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
               <view class="weui-cell__hd">
                 <image src="{{item.img}}" style="width: 25px;height: 25px;margin-right: 5px" />
@@ -38,7 +38,7 @@
     <view class="weui-panel" wx:else>
       <view class="weui-panel__bd">
         <view class="weui-media-box weui-media-box_small-appmsg">
-          <view class="weui-cells weui-cells_in-small-appmsg" wx:for="{{allData}}">
+          <view class="weui-cells weui-cells_in-small-appmsg" wx:for="{{allData}}" wx:key='id'>
             <navigator url="../roleItem/item?id={{item.id}}" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
               <view class="weui-cell__hd">
                 <image src="{{item.img}}" style="width: 25px;height: 25px;margin-right: 5px" />

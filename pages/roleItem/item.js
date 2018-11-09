@@ -55,15 +55,11 @@ function initChart(canvas, width, height) {
       ]
     },
     series: [{
-      name: '预算 vs 开销',
+      name: '忍者基础能力分析',
       type: 'radar',
       data: [{
           value: [4, 3, 2, 2, 4, 4,8,2],
           name: '临之书'
-        },
-        {
-          value: [6, 4, 2, 3, 6, 6,8,2],
-          name: '斗之书'
         }
       ]
     }]
